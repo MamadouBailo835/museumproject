@@ -1,0 +1,112 @@
+a.btn_btn_secondary_btn_lg {
+    background-color: yellow;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 0cqmax;
+    border-left: 2px solid black;
+    border-right: 2PX solid black;
+    border-bottom: 2PX solid black;
+    border-top: 2PX solid black;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+    text-align: right;
+
+
+
+
+}
+
+a.btn_btn_primary_btn_lg {
+    background-color: white;
+    margin-left: 2px;
+    margin-right: 2px;
+    margin-top: 2px;
+    margin-bottom: 2px;
+    padding-left: 3%;
+    padding-right: 3%;
+    padding-top: 1%;
+    padding-bottom: 1%;
+    border-radius: 0cqmax;
+    border-left: 2px solid black;
+    border-right: 2PX solid black;
+    border-bottom: 2PX solid black;
+    border-top: 2PX solid black;
+    font-size: larger;
+    font-family: 'Franklin Gothic Medium', 'Arial Narrow', Arial, sans-serif;
+    color: black;
+    text-decoration: none;
+}
+
+
+form {
+    
+    text-align: center;
+
+    text-transform: column;
+
+}
+
+.cont1 { display: block;
+    text-align: right;
+}
+
+.cont2 {
+    display: flex;
+    justify-content: center;   /* Centre le contenu verticalement */
+    align-items: center;       /* Centre le contenu horizontalement */
+    height: 50vh;             /* Ajuste la hauteur pour centrer au milieu de la page */
+    flex-direction: column;    /* Dispose les éléments en colonne */
+}
+
+.cont2 form {
+    display: flex;
+    flex-direction: column;    /* Aligne les champs du formulaire verticalement */
+    width: 300px;              /* Limite la largeur du formulaire pour un alignement centré */
+    text-align: center;        /* Centre le texte du formulaire */
+}
+
+.cont2 input[type="email"],
+ { margin: 10px 0;            /* Ajoute un espace entre les champs */
+    padding: 8px;
+}
+.cont2 input[type="submit"],
+{ margin: 5px 0;            /* Ajoute un espace entre les champs */
+    padding: 4px;
+}
+
+.cont1 { display: block;
+    text-align: right;
+}
+
+.cont3 {
+    display: flex;
+    justify-content: center;   /* Centre le contenu verticalement */
+    align-items: center;       /* Centre le contenu horizontalement */
+    flex-direction: column;    /* Dispose les éléments en colonne */
+    align-content: center;
+    
+}
+.Cont4 { display: flex end;
+    justify-self: start;
+text-align: start;
+align-content: start;
+flex-direction: column;}
+.cont5 {
+    display: flex ;
+    justify-content: end;   /* Centre le contenu verticalement */
+    align-items: end;       /* Centre le contenu horizontalement */
+    flex-direction:  column;    /* Dispose les éléments en colonne */
+    align-content: end;}
+    #footer {
+         background-color:rgb(245, 245, 240);
+        }
+        
+
